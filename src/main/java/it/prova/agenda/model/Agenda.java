@@ -31,7 +31,7 @@ public class Agenda {
 	private LocalDateTime dataOraFine;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "agenda_id", nullable = false)
+	@JoinColumn(name = "utente_id", nullable = false)
 	private Utente utente;
 
 	
